@@ -6,7 +6,14 @@ class Home extends Component {
       <div>
         <div className="homegrid">
           <div className="titlegrid">
-            <h1>Header</h1>
+            <h1>Book Journal</h1>
+            <p className="famousquote">
+              "Because not everyone needs to know what you are reading."
+            </p>
+            <p>-anonymous</p>
+          </div>
+          <div className="imagegrid">
+            <img className="titleimage" src="images/waitingForGodot.jpg" />
           </div>
           <div className="bodygrid">
             <h1>Body</h1>

@@ -2,7 +2,6 @@ body {
   padding: 0.1em;
   margin: 0;
   color: black;
-  text-transform: uppercase;
   font-family: "Open Sans Condensed", sans-serif;
 }
 
@@ -14,12 +13,27 @@ body {
 
 .titlegrid {
   grid-row: 1/1;
-  background-color: #c38d9e;
+  background-color: white;
+  text-align: center;
+}
+
+.imagegrid {
+  grid-row: 2/2;
+  background-color: white;
   text-align: center;
 }
 
 .bodygrid {
-  grid-row: 2/4;
-  background-color: #88bdbc;
+  grid-row: 3/3;
+  background-color: white;
   text-align: center;
+}
+
+.famousquote {
+  font-style: italic;
+}
+
+.titleimage {
+  width: 100%;
+  height: 350px;
 }

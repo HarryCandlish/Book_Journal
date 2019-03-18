@@ -15,9 +15,6 @@ class Home extends Component {
           <div className="imagegrid">
             <img className="titleimage" src="images/waitingForGodot.jpg" />
           </div>
-          <div className="bodygrid">
-            <h1>Body</h1>
-          </div>
         </div>
       </div>
     );
